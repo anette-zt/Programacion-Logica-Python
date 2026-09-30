@@ -44,13 +44,16 @@ def inscrito(x, y):
 print("CONSULTAS")
 
 print("estudiante('Anette'):", estudiante("Anette"))
-print("estudiante('Juan'):", estudiante("Juan"))
+print("estudiante('Zurita'):", estudiante("Zurita"))
 
 print("maestro('Zurita'):", maestro("Zurita"))
-print("maestro('Valencia'):", maestro("Valencia"))
+print("maestro('Anette'):", maestro("Anette"))
 
 print("estudia('Anette', 'programacion'):", estudia("Anette", "programacion"))
-print("estudia('Heidi', 'Matematicas'):", estudia("Heidi", "Matematicas"))
+print("estudia('Juan', 'Matematicas'):", estudia("Juan", "Matematicas"))
+
+print("imparte('Zurita', 'programacion'):", imparte("Zurita", "programacion"))
+print("imparte('Valencia', 'Matematicas'):", imparte("Valencia", "Matematicas"))
 
 print("inscrito('Anette', 'programacion'):", inscrito("Anette", "programacion"))
-print("inscrito('Heidi', 'Matematicas'):", inscrito("Heidi", "Matematicas"))
+print("inscrito('Juan', 'Matematicas'):", inscrito("Juan", "Matematicas"))
